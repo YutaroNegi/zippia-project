@@ -16,7 +16,7 @@
  <p>
     Simple  website to show some jobs from zippia API.
     <br><br>
-    This page will connect to an API service URL where will get a json with a list of jobs, rendering to the user with possibilities to sort by company day or jobs published in the last 7 days.
+    This page will connect to an API service URL where will get a json with a list of jobs, rendering to the user with possibilities to sort by company name or jobs published in the last 7 days.
  </p> 
 
  # Functionalities 
@@ -28,11 +28,11 @@
  # Technologies
  <ul>
     <li>Typescript</li>
+    <li>Server Side Rendering</li>
     <li>Next.js</li>
     <li>React</li>
     <li>MUI</li>
     <li>Node.js</li>
-    <li>Server Side Rendering</li>
  </ul>
 
  
