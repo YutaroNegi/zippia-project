@@ -26,6 +26,7 @@ function JobsListItem (props : Props){
             <ListItemText >
                 <Box sx={{fontWeight: 'bold', fontSize: '1.2em', marginBottom: '0.6em'}}>{props.job.jobTitle}</Box>
                 <Box sx={{color: '#333', fontSize: '1em', marginBottom: '0.6em'}}>{props.job.companyName}</Box>
+                {/* the api was not returning the shortDesc, so i made my self with the jobDescription and using the replace() to make it shorter*/}
                 <Box sx={{color:'#6c757d', fontSize: '0.95em', marginBottom: '0.6em'}}>{props.job.jobDescription.replace(/<[^>]+>/g, '').slice(0, 250).concat('...')}</Box>
                 <Box sx={{fontSize: '0.9em', marginBottom: '0.6em', color: {color}}}>{props.newTxt + props.job.postedDate}</Box>
             </ListItemText>
