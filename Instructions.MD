@@ -34,5 +34,3 @@ Request payload:
 * If you are busy and don't have enough time please contact me and we can postpone the test to another moment.
 * If you have any questions feel free to ask.
 * You can take as design reference: https://www.zippia.com/developer-jobs/jobs/
-
-Send the document to crocha@zippia.com
